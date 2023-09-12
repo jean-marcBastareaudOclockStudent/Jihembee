@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ 
+/*------------------------------------ANIMATION------------------------------------*/
+ .diapoContainer{
+  border-radius: 50%;
+  display: flex;
+  width: 475px;
+  height: 500px;
+  margin:  auto;
+  overflow: hidden;
+  border: 2px solid  white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+   .slider {
+    animation: slider2 18s infinite ease-in-out;
+    display: flex;
+    flex-shrink: 0;
+    padding:72px 0;
+    width: 100%;
+
+  }
+
+  @keyframes slider2 {
+    0%,
+    20% {
+      transform: translateX(0);
+    }
+    25%,
+    45% {
+      transform: translateX(-100%);
+    }
+    50%,
+    70% {
+      transform: translateX(-200%);
+    }
+    75%,
+    95% {
+      transform: translateX(-300%);
+    }
+    100% {
+       transform: translateX(-400%);
+    }
+
+  }
+
+ /* --------------------------HEADER-------------------------- */
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#1d1075, #ace);
+    color: #fff;
+    height: 90px;
+
+}
+
+span {
+    font-size: 18px;
+    font-weight: 200;
+}
+/* ----------------------Main-------------------- */
+
+
+.mainContent {
+     align-items: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    padding: 90px 50px 10px;
+ }
+
+ .mainContent__WelcomeText{
+  padding-bottom: 35px;
+ }
+/* -------------------Nav/Menu-------------------------- */
+
+
+nav {
+    display: flex;
+    flex-direction:row;
+    height: 120px;
+    width: 200px;
+    
+     
+}
+
+ .nav-item1, .nav-item2 {
+         align-items: center;
+         border: 2px solid orange;
+         display: flex;
+         font-size: 1.2rem;
+         height:40px;
+         justify-content: center;
+         list-style-type: none;
+         margin-top: 5px;
+         width: 120px;
+          
+    } 
+    
+
+
+    .nav-item-Menu, .nav-item-About{
+         
+        text-decoration: none;
+    }
+    
+    
+
+    .nav-links {
+        align-items: center;
+        display: flex;
+        height: 60px;
+        width: 200px;
+
+    }
+
+.Menu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    align-items: center;
+    background:linear-gradient(45deg, #ace, #1d1075);
+    display: flex;
+    color:#fff;
+    justify-content: center;
+    height: 80px;
+    
+}
