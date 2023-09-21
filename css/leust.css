@@ -1,0 +1,36 @@
+*, ::before ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+     
+
+    
+}
+
+.accueil {
+ 
+    align-items: center;
+    background-image: url("../images/Hyperspace!!!.jpeg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+    width: 100%;
+ }
+
+ .display-1{
+    
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 180px;
+    justify-content: center;
+    
+ }

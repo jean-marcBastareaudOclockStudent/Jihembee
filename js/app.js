@@ -83,7 +83,7 @@
 
   let y = 0;
 
-  while(y < fruitsDetailsTer.length) {
-    fruit = fruitsDetailsTer[y];
-    console.log(fruit[2]);
+  while(y < 3 && y < fruitsDetailsTer.length) {
+     console.log(fruitsDetailsTer[y].nom);
+    y++;
   }

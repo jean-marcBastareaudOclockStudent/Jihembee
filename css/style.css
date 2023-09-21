@@ -6,6 +6,8 @@
 
  
 /*------------------------------------ANIMATION------------------------------------*/
+
+
  .diapoContainer{
   border-radius: 50%;
   display: flex;
@@ -114,8 +116,7 @@ nav {
           
     } 
     
-
-
+ 
     .nav-item-Menu, .nav-item-About{
          
         text-decoration: none;
